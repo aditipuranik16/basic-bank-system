@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}*/
+ /*--navbar--*/
+.navbar{
+  padding: 25px 0 !important;
+  font-size: 20px;
+}
+.navbar .navbar-brand{
+  font-size: 25px;
+  font-weight: bold;
+}
+.btn{
+
+  border-radius: 50px;
+}
+
+/*--Landing page--*/
+.landing-div{
+  background: url("./imgs/bank1.jpg") no-repeat scroll center;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+}
+.landing-wrapper{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+.landing-wrapper h1{
+  font-size: 80px;
+}
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 40px;
+	}
+	.act{
+		padding-bottom: 100px;
+	}
+
+}
