@@ -1,5 +1,6 @@
 # basic-bank-system
 Introduction:
+
 The Sparks Foundation Internship Project - Basic Banking System
 A web application used to transfer money between two users.
 
@@ -9,7 +10,6 @@ Front-end:
 2.css
 3.bootstrap
 4.javascript
-
 Back-end:
 1.PHP
 2.mySQL
