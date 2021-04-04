@@ -8,16 +8,6 @@
 html {
   scroll-behavior: smooth;
 }
-/*
-:root {
-  --Sniglet-font: "Sniglet", cursive;
-  --Rubik: "Rubik", cursive;
-  --Patua: "Patua One", cursive;
-  --Lobster: "lobster", cursive;
-  --light-black: #2e2c2caf;
-  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
-  --light-gray: rgba(255, 255, 255, 0.877);
-}*/
  /*--navbar--*/
 .navbar{
   padding: 25px 0 !important;
