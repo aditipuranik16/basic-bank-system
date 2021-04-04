@@ -1,0 +1,37 @@
+CREATE TABLE sparkstransact (
+    ->   sender text NOT NULL,
+    ->   receiver text NOT NULL,
+    ->   balance int(10) NOT NULL
+    -> );
+
+
+INSERT INTO sparkstransact (sender, receiver, balance) VALUES
+('aditi', 'priya',2000);
+
+
+CREATE TABLE sparksusers (
+  id int(10) NOT NULL,
+  name text NOT NULL,
+  email varchar(30) NOT NULL,
+  phone int(10) NOT NULL,
+  balance int(10) NOT NULL
+);
+
+
+INSERT INTO sparksusers (id, name, email, phone, balance) VALUES
+(1001, 'aditi', 'aditi234@gmail.com', 563454321, 2000),
+(1002, 'priya', 'priya@gmail.com', 946784322, 5000),
+(1003, 'shruti', 'shruti@gmail.com', 946324678, 4000),
+(1004, 'rakshita', 'rakshita@gmail.com', 676567543, 7000),
+(1005, 'prachi', 'prachi@gmail.com', 568228617, 2000),
+(1006, 'rajnandini', 'rajnandini@gmail.com', 456465678, 6000),
+(1007, 'shraddha', 'shraddha@gmail.com', 345678435, 7000),
+(1008, 'nikita', 'nikita@gmail.com', 676548127, 5000),
+(1009, 'megha', 'megha@gmail.com', 567448971, 2000),
+(1010, 'aparna', 'aparna@gmail.com', 600334561, 9000);
+
+
+ALTER TABLE sparksusers
+  MODIFY id int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1002;
+COMMIT;
+
